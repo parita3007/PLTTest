@@ -1,0 +1,47 @@
+//***************HomePage***********//
+
+CookiePopPp=CssSelector:#onetrust-accept-btn-handler
+topNav=CssSelector:#header-top-nav
+Categories=CssSelector:#frame-header-nav li
+
+//***************CartPage***********//
+cartproductName=CssSelector:[class='font-brand-thin text-sm text-new-brand-black hover:underline lg:text-base lg:tracking-wide']
+cartTotal=CssSelector:[class='flex lg:justify-end'] p:nth-child(2)
+checkoutButton=CssSelector:#checkout-button-top
+
+//***************PDPPage***********//
+
+PDPproductName=CssSelector:#pdp-name
+PDPproductSize=Xpath:.//*[@class='inline mb-4 pt-6']//button[not(@type='button')and not(contains(@class, 'PDPSizes_isOutOfStock__945ag'))]
+PDPproductPrice=CssSelector:#pdp-price-block
+addToBag=CssSelector:#add-to-bag-button
+cartIcon=CssSelector:[data-testid='BASKET_COUNT'],[data-testid='cartCount']
+PLPproductsList=CssSelector:#products-list [data-testid='PRODUCT_LIST'] a
+
+//***************Login***********//
+
+emailField=CssSelector:input#customer-email
+passwordField=CssSelector:#customer-password
+submitButton=CssSelector:button[type='submit']
+
+//***************BillingPage***********//
+
+productName=CssSelector:.bag-item__name
+productSize=Xpath://ul[contains(@class, 'bag-item__details-list')]/li[position()=2]
+productSubtotal=Xpath://*[@class='bag__totals-item subtotal']/span[position()=2]
+deliveryTotal=CssSelector:.bag__totals-item
+grandTotal=CssSelector:[class='bag__totals-item grand-total']
+goToPayment=CssSelector:[class='btn c-button c-button btn--payment ']
+Xpath://h2[contains(@class, 'box__title') and text() = 'Payment Information']
+paymentMethod=CssSelector:input[name='worldpay']
+
+
+//***************LOginCreds***********//
+username= parita.patel@boohoo.com
+password= Parita@123
+PLTusername= parita.patel@boohoo.com
+PLTPassword= Parita@123
+
+
+
+
